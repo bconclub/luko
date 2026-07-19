@@ -1,0 +1,32 @@
+filters:
+  and:
+    - 'category == "person"'
+properties:
+  file.name:
+    displayName: Person
+  role:
+    displayName: Role
+  org:
+    displayName: Org
+  relation:
+    displayName: Relation
+  channel:
+    displayName: Channel
+views:
+  - type: table
+    name: Everyone
+    order:
+      - file.name
+      - role
+      - org
+      - relation
+      - channel
+  - type: table
+    name: Clients
+    filters:
+      and:
+        - 'relation == "client"'
+    order:
+      - file.name
+      - org
+      - channel

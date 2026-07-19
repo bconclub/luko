@@ -1,0 +1,366 @@
+[
+ {
+  "ts": "2026-07-16 20:30",
+  "brands": {
+   "bcon": {
+    "tier": "LIVE",
+    "url": "https://proxe.bconclub.com",
+    "http": 200,
+    "version": "0.2.7",
+    "built": "2026-07-16T11:46:34.334Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   },
+   "windchasers": {
+    "tier": "LIVE",
+    "url": "https://proxe.windchasers.in",
+    "http": 200,
+    "version": "0.2.7",
+    "built": "2026-07-16T11:46:33.905Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   },
+   "lokazen": {
+    "tier": "LIVE",
+    "url": "https://proxe.lokazen.in",
+    "http": 200,
+    "version": "0.2.11",
+    "built": "2026-07-16T12:20:06.804Z",
+    "status_api": "error",
+    "notes": [
+     "status=error",
+     "supabase-url-invalid",
+     "auth=error"
+    ]
+   },
+   "pop": {
+    "tier": "TESTING",
+    "url": "https://pop-proxe.vercel.app",
+    "http": 200,
+    "version": "0.2.6",
+    "built": "2026-07-16T10:59:00.666Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   }
+  },
+  "fails": [
+   "bcon: /api/status reports error",
+   "windchasers: /api/status reports error",
+   "lokazen: /api/status reports error",
+   "pop: /api/status reports error",
+   "version drift: {'bcon': '0.2.7', 'windchasers': '0.2.7', 'pop': '0.2.6'} vs 0.2.11"
+  ],
+  "latest_version": "0.2.11"
+ },
+ {
+  "ts": "2026-07-16 20:39",
+  "brands": {
+   "bcon": {
+    "tier": "LIVE",
+    "url": "https://proxe.bconclub.com",
+    "http": 200,
+    "version": "0.2.7",
+    "built": "2026-07-16T11:46:34.334Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   },
+   "windchasers": {
+    "tier": "LIVE",
+    "url": "https://proxe.windchasers.in",
+    "http": 200,
+    "version": "0.2.7",
+    "built": "2026-07-16T11:46:33.905Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   },
+   "lokazen": {
+    "tier": "LIVE",
+    "url": "https://proxe.lokazen.in",
+    "http": 200,
+    "version": "0.2.11",
+    "built": "2026-07-16T12:20:06.804Z",
+    "status_api": "error",
+    "notes": [
+     "status=error",
+     "supabase-url-invalid",
+     "auth=error"
+    ]
+   },
+   "pop": {
+    "tier": "TESTING",
+    "url": "https://pop-proxe.vercel.app",
+    "http": 200,
+    "version": "0.2.6",
+    "built": "2026-07-16T10:59:00.666Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   }
+  },
+  "fails": [
+   "bcon: /api/status reports error",
+   "windchasers: /api/status reports error",
+   "lokazen: /api/status reports error",
+   "pop: /api/status reports error",
+   "version drift: {'bcon': '0.2.7', 'windchasers': '0.2.7', 'pop': '0.2.6'} vs 0.2.11"
+  ],
+  "latest_version": "0.2.11"
+ },
+ {
+  "ts": "2026-07-16 20:42",
+  "brands": {
+   "bcon": {
+    "tier": "LIVE",
+    "url": "https://proxe.bconclub.com",
+    "http": 200,
+    "version": "0.2.7",
+    "built": "2026-07-16T11:46:34.334Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   },
+   "windchasers": {
+    "tier": "LIVE",
+    "url": "https://proxe.windchasers.in",
+    "http": 200,
+    "version": "0.2.7",
+    "built": "2026-07-16T11:46:33.905Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   },
+   "lokazen": {
+    "tier": "LIVE",
+    "url": "https://proxe.lokazen.in",
+    "http": 200,
+    "version": "0.2.11",
+    "built": "2026-07-16T12:20:06.804Z",
+    "status_api": "error",
+    "notes": [
+     "status=error",
+     "supabase-url-invalid",
+     "auth=error"
+    ]
+   },
+   "pop": {
+    "tier": "TESTING",
+    "url": "https://pop-proxe.vercel.app",
+    "http": 200,
+    "version": "0.2.6",
+    "built": "2026-07-16T10:59:00.666Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   }
+  },
+  "fails": [
+   "bcon: /api/status reports error",
+   "windchasers: /api/status reports error",
+   "lokazen: /api/status reports error",
+   "pop: /api/status reports error",
+   "version drift: {'bcon': '0.2.7', 'windchasers': '0.2.7', 'pop': '0.2.6'} vs 0.2.11"
+  ],
+  "latest_version": "0.2.11"
+ },
+ {
+  "ts": "2026-07-16 22:19",
+  "brands": {
+   "bcon": {
+    "tier": "LIVE",
+    "url": "https://proxe.bconclub.com",
+    "http": 200,
+    "version": "0.2.12",
+    "built": "2026-07-16T15:29:28.470Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ]
+   },
+   "windchasers": {
+    "tier": "LIVE",
+    "url": "https://proxe.windchasers.in",
+    "http": 200,
+    "version": "0.2.12",
+    "built": "2026-07-16T15:29:28.852Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ]
+   },
+   "lokazen": {
+    "tier": "LIVE",
+    "url": "https://proxe.lokazen.in",
+    "http": 200,
+    "version": "0.2.12",
+    "built": "2026-07-16T15:29:28.701Z",
+    "status_api": "error",
+    "notes": [
+     "status=error",
+     "supabase-url-invalid",
+     "auth=error"
+    ]
+   },
+   "pop": {
+    "tier": "TESTING",
+    "url": "https://pop-proxe.vercel.app",
+    "http": 200,
+    "version": "0.2.12",
+    "built": "2026-07-16T15:30:31.376Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ]
+   }
+  },
+  "fails": [
+   "bcon: /api/status reports error",
+   "windchasers: /api/status reports error",
+   "lokazen: /api/status reports error",
+   "pop: /api/status reports error"
+  ],
+  "latest_version": "0.2.12"
+ },
+ {
+  "ts": "2026-07-17 01:28",
+  "brands": {
+   "bcon": {
+    "tier": "LIVE",
+    "url": "https://proxe.bconclub.com",
+    "http": 200,
+    "version": "0.2.12",
+    "built": "2026-07-16T15:29:28.470Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ]
+   },
+   "windchasers": {
+    "tier": "LIVE",
+    "url": "https://proxe.windchasers.in",
+    "http": 200,
+    "version": "0.2.12",
+    "built": "2026-07-16T15:29:28.852Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ]
+   },
+   "lokazen": {
+    "tier": "LIVE",
+    "url": "https://proxe.lokazen.in",
+    "http": 200,
+    "version": "0.2.12",
+    "built": "2026-07-16T15:29:28.701Z",
+    "status_api": "error",
+    "notes": [
+     "status=error",
+     "supabase-url-invalid",
+     "auth=error"
+    ]
+   },
+   "pop": {
+    "tier": "TESTING",
+    "url": "https://pop-proxe.vercel.app",
+    "http": 200,
+    "version": "0.2.12",
+    "built": "2026-07-16T15:30:31.376Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ]
+   }
+  },
+  "fails": [
+   "bcon: /api/status reports error",
+   "windchasers: /api/status reports error",
+   "lokazen: /api/status reports error",
+   "pop: /api/status reports error"
+  ],
+  "latest_version": "0.2.12"
+ },
+ {
+  "ts": "2026-07-19 09:44",
+  "brands": {
+   "bcon": {
+    "tier": "LIVE",
+    "url": "https://proxe.bconclub.com",
+    "http": 200,
+    "version": "0.2.62",
+    "built": "2026-07-18T09:27:12.408Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   },
+   "windchasers": {
+    "tier": "LIVE",
+    "url": "https://proxe.windchasers.in",
+    "http": 200,
+    "version": "0.2.63",
+    "built": "2026-07-18T09:41:13.716Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ]
+   },
+   "lokazen": {
+    "tier": "LIVE",
+    "url": "https://proxe.lokazen.in",
+    "http": 200,
+    "version": "0.2.62",
+    "built": "2026-07-18T09:27:14.077Z",
+    "status_api": "error",
+    "notes": [
+     "status=error",
+     "supabase-url-invalid",
+     "auth=error"
+    ],
+    "stale": true
+   },
+   "pop": {
+    "tier": "TESTING",
+    "url": "https://pop-proxe.vercel.app",
+    "http": 200,
+    "version": "0.2.62",
+    "built": "2026-07-18T09:27:33.058Z",
+    "status_api": "error",
+    "notes": [
+     "status=error"
+    ],
+    "stale": true
+   }
+  },
+  "fails": [
+   "bcon: /api/status reports error",
+   "windchasers: /api/status reports error",
+   "lokazen: /api/status reports error",
+   "pop: /api/status reports error",
+   "version drift: {'bcon': '0.2.62', 'lokazen': '0.2.62', 'pop': '0.2.62'} vs 0.2.63"
+  ],
+  "latest_version": "0.2.63"
+ }
+]

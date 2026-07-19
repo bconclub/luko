@@ -1,0 +1,29 @@
+filters:
+  and:
+    - 'category == "brand"'
+properties:
+  file.name:
+    displayName: Brand
+  tier:
+    displayName: Tier
+  proxe_url:
+    displayName: PROXe URL
+  features:
+    displayName: Features
+views:
+  - type: table
+    name: All brands
+    order:
+      - file.name
+      - tier
+      - proxe_url
+      - features
+  - type: table
+    name: Live only
+    filters:
+      and:
+        - 'tier == "LIVE"'
+    order:
+      - file.name
+      - proxe_url
+      - features

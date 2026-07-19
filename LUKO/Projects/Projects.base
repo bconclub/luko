@@ -1,0 +1,41 @@
+filters:
+  and:
+    - 'category == "project"'
+properties:
+  file.name:
+    displayName: Project
+  status:
+    displayName: Status
+  client:
+    displayName: Client
+  next:
+    displayName: Next action
+  due:
+    displayName: Due
+views:
+  - type: table
+    name: All projects
+    order:
+      - file.name
+      - status
+      - client
+      - next
+      - due
+  - type: cards
+    name: Active
+    filters:
+      and:
+        - 'status == "active"'
+    order:
+      - file.name
+      - next
+      - due
+  - type: table
+    name: Waiting on
+    filters:
+      and:
+        - 'status == "waiting"'
+    order:
+      - file.name
+      - client
+      - next
