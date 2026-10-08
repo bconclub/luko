@@ -85,7 +85,7 @@ def load_records(folder, category):
     if not d.exists():
         return out
     for p in sorted(d.glob("*.md")):
-        text = p.read_text()
+        text = p.read_text(encoding="utf-8")
         fm = parse_frontmatter(text)
         if fm.get("category") != category:
             continue
@@ -102,7 +102,7 @@ def load_payments():
     if not src.exists():
         return rows
     header = None
-    for line in src.read_text().splitlines():
+    for line in src.read_text(encoding="utf-8").splitlines():
         if re.match(r"^\s*\|", line) and not re.match(r"^\s*\|[\s\-:|]+\|\s*$", line):
             cells = [c.strip() for c in line.strip().strip("|").split("|")]
             if header is None:
@@ -117,7 +117,7 @@ def load_signals():
     if not src.exists():
         return []
     try:
-        return json.loads(src.read_text())
+        return json.loads(src.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         return []
 
@@ -475,7 +475,7 @@ def build():
     proposals = load_records("Proposals", "proposal")
     payments = load_payments()
     now_file = VAULT / "Work" / "Now.md"
-    now_tasks = parse_tasks(now_file.read_text()) if now_file.exists() else []
+    now_tasks = parse_tasks(now_file.read_text(encoding="utf-8")) if now_file.exists() else []
     signals = load_signals()
 
     today_html, attention = render_today(projects, payments, proposals, now_tasks, signals)
@@ -551,7 +551,7 @@ Obsidian, re-run ./scripts/twin.sh) · local file, zero hosting, zero tokens</fo
 
     out = VAULT / "dashboard" / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(page)
+    out.write_text(page, encoding="utf-8")
     return out
 
 
